@@ -9,9 +9,13 @@ const GRAVITY = 980.0
 
 func _physics_process(delta: float) -> void:
 	
-	# Shotgun stuff
+	# Shotgun aiming
 	var mouse_pos = get_global_mouse_position()
 	shotgun.look_at(mouse_pos)
+	
+	if Input.is_action_just_pressed("shoot"): #ensure shoot is bound
+		if shotgun:
+			shotgun.play("Firing")
 	
 	# Add gravity
 	if not is_on_floor():
