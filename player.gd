@@ -5,6 +5,7 @@ const JUMP_VELOCITY = -400.0
 const GRAVITY = 980.0
 
 @onready var animated_sprite = $AnimatedSprite2D
+@onready var shotgun = $Shotgun
 
 func _physics_process(delta: float) -> void:
 	# Add gravity
@@ -27,3 +28,6 @@ func _physics_process(delta: float) -> void:
 
 	# Move the character
 	move_and_slide()
+
+	var mouse_pos = get_global_mouse_position()
+	shotgun.look_at(mouse_pos)

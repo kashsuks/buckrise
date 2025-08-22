@@ -1,8 +1,9 @@
-[gd_scene load_steps=21 format=3 uid="uid://cmbu3s2xamf7a"]
+[gd_scene load_steps=22 format=3 uid="uid://cmbu3s2xamf7a"]
 
 [ext_resource type="Texture2D" uid="uid://cbvl0agiifpc1" path="res://images/CowBoyWalking.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://7nmh5e2s5xi8" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://clv8yxghqso6s" path="res://images/CowBoyIdle.png" id="2_i3pqv"]
+[ext_resource type="Texture2D" uid="uid://c0hjanb5hhl5u" path="res://images/Shotgun.png" id="4_hqtel"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sy5k4"]
 size = Vector2(164, 211)
@@ -136,9 +137,13 @@ position = Vector2(64, 80.5)
 shape = SubResource("RectangleShape2D_sy5k4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
-position = Vector2(57.5, 64)
+position = Vector2(58, 66)
 scale = Vector2(3.4375, 3.75)
 sprite_frames = SubResource("SpriteFrames_f0urt")
 animation = &"Idle"
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Shotgun" type="Sprite2D" parent="Player"]
+position = Vector2(103, 103)
+texture = ExtResource("4_hqtel")
