@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbvl0agiifpc1"
-path="res://.godot/imported/CowBoyWalking.png-1e39ff509d97b052d0b4f0f7fa936c33.ctex"
+uid="uid://bckgvtgx7vbnm"
+path="res://.godot/imported/playerDeathSheet.png-adba26f6f53f3dce05a57d5d47223c81.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/CowBoyWalking.png"
-dest_files=["res://.godot/imported/CowBoyWalking.png-1e39ff509d97b052d0b4f0f7fa936c33.ctex"]
+source_file="res://images/playerDeathSheet.png"
+dest_files=["res://.godot/imported/playerDeathSheet.png-adba26f6f53f3dce05a57d5d47223c81.ctex"]
 
 [params]
 

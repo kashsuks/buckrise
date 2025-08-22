@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clv8yxghqso6s"
-path="res://.godot/imported/CowBoyIdle.png-30a8f6f67471f992f2a58838b3b60c79.ctex"
+uid="uid://7x4qes88kgfu"
+path="res://.godot/imported/playerMoveSheet.png-6d0763d5fff2e5fc475cad92dc8be8eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/CowBoyIdle.png"
-dest_files=["res://.godot/imported/CowBoyIdle.png-30a8f6f67471f992f2a58838b3b60c79.ctex"]
+source_file="res://images/playerMoveSheet.png"
+dest_files=["res://.godot/imported/playerMoveSheet.png-6d0763d5fff2e5fc475cad92dc8be8eb.ctex"]
 
 [params]
 
